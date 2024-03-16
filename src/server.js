@@ -13,7 +13,7 @@ const io = require('socket.io')(server);
 const port = process.env.PORT || 3080;
 
 app.use(cookieParser());
-// app.use(express.static('public'));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
