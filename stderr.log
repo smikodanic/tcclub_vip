@@ -1,0 +1,586 @@
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:4
+    2|     Payment Amount
+    3|     <br>
+ >> 4|     <span>₹&nbsp;<%= am %></span>
+    5| </h3>
+    6| 
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:4
+    2|     Payment Amount
+    3|     <br>
+ >> 4|     <span>₹&nbsp;<%= am %></span>
+    5| </h3>
+    6| 
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:198
+    196| Payment Amount
+    197| <br>
+ >> 198|         <span>₹&nbsp;<%= am %></span>
+    199| </h3>
+    200| 
+    201| <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:186
+    184|     Payment Amount
+    185|     <br>
+ >> 186|     <span>₹&nbsp;<%= am %></span>
+    187| </h3>
+    188| 
+    189| <div class="upi-info">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /home/vegaslot/vegaslottery.in/src/views/wallet/ekpay.ejs:195
+    193|         Payment Amount
+    194|         <br>
+ >> 195|         <span>₹&nbsp;<%= am %></span>
+    196|     </h3>
+    197| 
+    198|     <div class="container-fluid highlight">
+
+am is not defined
+    at eval (eval at compile (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:26)
+    at ekpay (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/response.js:1039:7)
+    at ekPayHandler (/home/vegaslot/vegaslottery.in/src/controllers/ekPayController.js:3:9)
+    at Layer.handle [as handle_request] (/home/vegaslot/nodevenv/vegaslottery.in/10/lib/node_modules/express/lib/router/layer.js:95:5)
+/home/oglotter/oglottery.in/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/oglottery.in/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/oglottery.in/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.(anonymous function) [as post] (/home/oglotter/nodevenv/oglottery.in/10/lib/node_modules/express/lib/router/index.js:521:19)
+    at Object.initWebRouter (/home/oglotter/oglottery.in/src/routes/web.js:23:12)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/oglotter/oglottery.in/src/server.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
