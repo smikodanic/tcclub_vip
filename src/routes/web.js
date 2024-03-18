@@ -38,11 +38,11 @@ const initWebRouter = (app) => {
     router.get('/checkDes', middlewareController, homeController.checkDes);
     router.get('/checkRecord', middlewareController, homeController.checkRecord);
 
-    router.get('/promotion', middlewareController, homeController.promotionPage);
-    router.get('/promotion/myTeam', middlewareController, homeController.promotionmyTeamPage);
-    router.get('/promotion/promotionDes', middlewareController, homeController.promotionDesPage);
-    router.get('/promotion/tutorial', middlewareController, homeController.tutorialPage);
-    router.get('/promotion/bonusrecord', middlewareController, homeController.bonusRecordPage);
+    router.get('/myactivity', middlewareController, homeController.myactivityPage);
+    router.get('/myactivity/myTeam', middlewareController, homeController.promotionmyTeamPage);
+    router.get('/myactivity/promotionDes', middlewareController, homeController.promotionDesPage);
+    router.get('/myactivity/tutorial', middlewareController, homeController.tutorialPage);
+    router.get('/myactivity/bonusrecord', middlewareController, homeController.bonusRecordPage);
 
     router.get('/wallet', middlewareController, homeController.walletPage);
     router.get('/wallet/recharge', middlewareController, homeController.rechargePage);

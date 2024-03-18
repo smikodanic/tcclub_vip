@@ -27,25 +27,25 @@ const addBank = async (req, res) => {
     return res.render("wallet/addbank.ejs");
 }
 
-// promotion
-const promotionPage = async (req, res) => {
-    return res.render("promotion/promotion.ejs");
+// myactivity
+const myactivityPage = async (req, res) => {
+    return res.render("myactivity/myactivity.ejs");
 }
 
 const promotionmyTeamPage = async (req, res) => {
-    return res.render("promotion/myTeam.ejs");
+    return res.render("myactivity/myTeam.ejs");
 }
 
 const promotionDesPage = async (req, res) => {
-    return res.render("promotion/promotionDes.ejs");
+    return res.render("myactivity/promotionDes.ejs");
 }
 
 const tutorialPage = async (req, res) => {
-    return res.render("promotion/tutorial.ejs");
+    return res.render("myactivity/tutorial.ejs");
 }
 
 const bonusRecordPage = async (req, res) => {
-    return res.render("promotion/bonusrecord.ejs");
+    return res.render("myactivity/bonusrecord.ejs");
 }
 
 // wallet
@@ -136,7 +136,7 @@ const myProfilePage = async (req, res) => {
 module.exports = {
     homePage,
     checkInPage,
-    promotionPage,
+    myactivityPage,
     walletPage,
     accountPage,
     myProfilePage,
