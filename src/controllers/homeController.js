@@ -11,8 +11,8 @@ const homePage = async (req, res) => {
     return res.render("home/index.ejs", { app });
 }
 
-const checkInPage = async (req, res) => {
-    return res.render("checkIn/checkIn.ejs");
+const promotionPage = async (req, res) => {
+    return res.render("checkIn/promotion.ejs");
 }
 
 const checkDes = async (req, res) => {
@@ -135,7 +135,7 @@ const myProfilePage = async (req, res) => {
 
 module.exports = {
     homePage,
-    checkInPage,
+    promotionPage,
     myactivityPage,
     walletPage,
     accountPage,

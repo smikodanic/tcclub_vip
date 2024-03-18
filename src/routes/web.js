@@ -34,7 +34,7 @@ const initWebRouter = (app) => {
     });
     router.get('/home', homeController.homePage);
 
-    router.get('/checkIn', middlewareController, homeController.checkInPage);
+    router.get('/promotion', middlewareController, homeController.promotionPage);
     router.get('/checkDes', middlewareController, homeController.checkDes);
     router.get('/checkRecord', middlewareController, homeController.checkRecord);
 
