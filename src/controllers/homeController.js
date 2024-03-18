@@ -5,105 +5,105 @@ const e = require("express");
 require('dotenv').config();
 
 
-const homePage = async(req, res) => {
+const homePage = async (req, res) => {
     const [settings] = await connection.query('SELECT `app` FROM admin');
     let app = settings[0].app;
-    return res.render("home/index.ejs", { app }); 
+    return res.render("home/index.ejs", { app });
 }
 
-const checkInPage = async(req, res) => {
-    return res.render("checkIn/checkIn.ejs"); 
+const checkInPage = async (req, res) => {
+    return res.render("checkIn/checkIn.ejs");
 }
 
-const checkDes = async(req, res) => {
-    return res.render("checkIn/checkDes.ejs"); 
+const checkDes = async (req, res) => {
+    return res.render("checkIn/checkDes.ejs");
 }
 
-const checkRecord = async(req, res) => {
-    return res.render("checkIn/checkRecord.ejs"); 
+const checkRecord = async (req, res) => {
+    return res.render("checkIn/checkRecord.ejs");
 }
 
-const addBank = async(req, res) => {
-    return res.render("wallet/addbank.ejs"); 
+const addBank = async (req, res) => {
+    return res.render("wallet/addbank.ejs");
 }
 
 // promotion
-const promotionPage = async(req, res) => {
-    return res.render("promotion/promotion.ejs"); 
+const promotionPage = async (req, res) => {
+    return res.render("promotion/promotion.ejs");
 }
 
-const promotionmyTeamPage = async(req, res) => {
-    return res.render("promotion/myTeam.ejs"); 
+const promotionmyTeamPage = async (req, res) => {
+    return res.render("promotion/myTeam.ejs");
 }
 
-const promotionDesPage = async(req, res) => {
-    return res.render("promotion/promotionDes.ejs"); 
+const promotionDesPage = async (req, res) => {
+    return res.render("promotion/promotionDes.ejs");
 }
 
-const tutorialPage = async(req, res) => {
-    return res.render("promotion/tutorial.ejs"); 
+const tutorialPage = async (req, res) => {
+    return res.render("promotion/tutorial.ejs");
 }
 
-const bonusRecordPage = async(req, res) => {
-    return res.render("promotion/bonusrecord.ejs"); 
+const bonusRecordPage = async (req, res) => {
+    return res.render("promotion/bonusrecord.ejs");
 }
 
 // wallet
-const walletPage = async(req, res) => {
-    return res.render("wallet/index.ejs"); 
+const walletPage = async (req, res) => {
+    return res.render("wallet/index.ejs");
 }
 
-const rechargePage = async(req, res) => {
-    return res.render("wallet/recharge.ejs"); 
+const rechargePage = async (req, res) => {
+    return res.render("wallet/recharge.ejs");
 }
 
-const rechargerecordPage = async(req, res) => {
-    return res.render("wallet/rechargerecord.ejs"); 
+const rechargerecordPage = async (req, res) => {
+    return res.render("wallet/rechargerecord.ejs");
 }
 
-const withdrawalPage = async(req, res) => {
-    return res.render("wallet/withdrawal.ejs"); 
+const withdrawalPage = async (req, res) => {
+    return res.render("wallet/withdrawal.ejs");
 }
 
-const withdrawalrecordPage = async(req, res) => {
-    return res.render("wallet/withdrawalrecord.ejs"); 
+const withdrawalrecordPage = async (req, res) => {
+    return res.render("wallet/withdrawalrecord.ejs");
 }
 
 // member page
-const mianPage = async(req, res) => { 
+const accountPage = async (req, res) => {
     let auth = req.cookies.auth;
     const [user] = await connection.query('SELECT `level` FROM users WHERE `token` = ? ', [auth]);
     let level = user[0].level;
-    return res.render("member/index.ejs", {level}); 
+    return res.render("member/index.ejs", { level });
 }
-const aboutPage = async(req, res) => {
-    return res.render("member/about/index.ejs"); 
-}
-
-const privacyPolicy = async(req, res) => {
-    return res.render("member/about/privacyPolicy.ejs"); 
+const aboutPage = async (req, res) => {
+    return res.render("member/about/index.ejs");
 }
 
-const newtutorial = async(req, res) => {
-    return res.render("member/newtutorial.ejs"); 
+const privacyPolicy = async (req, res) => {
+    return res.render("member/about/privacyPolicy.ejs");
 }
 
-const forgot = async(req, res) => {
+const newtutorial = async (req, res) => {
+    return res.render("member/newtutorial.ejs");
+}
+
+const forgot = async (req, res) => {
     let auth = req.cookies.auth;
     const [user] = await connection.query('SELECT `time_otp` FROM users WHERE token = ? ', [auth]);
     let time = user[0].time_otp;
-    return res.render("member/forgot.ejs", {time}); 
+    return res.render("member/forgot.ejs", { time });
 }
 
-const redenvelopes = async(req, res) => {
-    return res.render("member/redenvelopes.ejs"); 
+const redenvelopes = async (req, res) => {
+    return res.render("member/redenvelopes.ejs");
 }
 
-const riskAgreement = async(req, res) => {
-    return res.render("member/about/riskAgreement.ejs"); 
+const riskAgreement = async (req, res) => {
+    return res.render("member/about/riskAgreement.ejs");
 }
 
-const keFuMenu = async(req, res) => {
+const keFuMenu = async (req, res) => {
     let auth = req.cookies.auth;
 
     const [users] = await connection.query('SELECT `level`, `ctv` FROM users WHERE token = ?', [auth]);
@@ -125,12 +125,12 @@ const keFuMenu = async(req, res) => {
         }
         telegram = settings[0].telegram;
     }
-    
-    return res.render("keFuMenu.ejs", {telegram}); 
+
+    return res.render("keFuMenu.ejs", { telegram });
 }
 
-const myProfilePage = async(req, res) => {
-    return res.render("member/myProfile.ejs"); 
+const myProfilePage = async (req, res) => {
+    return res.render("member/myProfile.ejs");
 }
 
 module.exports = {
@@ -138,7 +138,7 @@ module.exports = {
     checkInPage,
     promotionPage,
     walletPage,
-    mianPage,
+    accountPage,
     myProfilePage,
     promotionmyTeamPage,
     promotionDesPage,

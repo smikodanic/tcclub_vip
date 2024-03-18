@@ -19,7 +19,7 @@ const initWebRouter = (app) => {
     // Define the route for the new page
     router.get('/EKPAY', middlewareController, ekPayController.ekPayHandler);
     router.get('/usdtpay', middlewareController, ekPayController.usdtHandler);
-    
+
     // page account
     router.get('/login', accountController.loginPage);
     router.get('/register', accountController.registerPage);
@@ -33,7 +33,7 @@ const initWebRouter = (app) => {
         return res.redirect('/home');
     });
     router.get('/home', homeController.homePage);
-    
+
     router.get('/checkIn', middlewareController, homeController.checkInPage);
     router.get('/checkDes', middlewareController, homeController.checkDes);
     router.get('/checkRecord', middlewareController, homeController.checkRecord);
@@ -46,7 +46,7 @@ const initWebRouter = (app) => {
 
     router.get('/wallet', middlewareController, homeController.walletPage);
     router.get('/wallet/recharge', middlewareController, homeController.rechargePage);
-     router.get('/wallet/payment', middlewareController, homeController.rechargePage);
+    router.get('/wallet/payment', middlewareController, homeController.rechargePage);
     router.get('/wallet/withdrawal', middlewareController, homeController.withdrawalPage);
     router.get('/wallet/rechargerecord', middlewareController, homeController.rechargerecordPage);
     router.get('/wallet/withdrawalrecord', middlewareController, homeController.withdrawalrecordPage);
@@ -54,15 +54,15 @@ const initWebRouter = (app) => {
 
     router.get('/keFuMenu', middlewareController, homeController.keFuMenu);
 
-    router.get('/mian', middlewareController, homeController.mianPage);
+    router.get('/account', middlewareController, homeController.accountPage);
 
     router.get('/about', middlewareController, homeController.aboutPage);
     router.get('/redenvelopes', middlewareController, homeController.redenvelopes);
-    router.get('/mian/forgot', middlewareController, homeController.forgot);
+    router.get('/account/forgot', middlewareController, homeController.forgot);
     router.get('/newtutorial', homeController.newtutorial);
     router.get('/about/privacyPolicy', middlewareController, homeController.privacyPolicy);
     router.get('/about/riskAgreement', middlewareController, homeController.riskAgreement);
-    
+
     router.get('/myProfile', middlewareController, homeController.myProfilePage);
 
 
@@ -90,8 +90,8 @@ const initWebRouter = (app) => {
     router.post('/api/webapi/login', accountController.login); // login
     router.post('/api/webapi/register', accountController.register); // register
     router.get('/api/webapi/GetUserInfo', middlewareController, userController.userInfo); // get info account
-    router.put('/api/webapi/change/userInfo',middlewareController, userController.changeUser); // get info account
-    router.put('/api/webapi/change/pass',middlewareController, userController.changePassword); // get info account
+    router.put('/api/webapi/change/userInfo', middlewareController, userController.changeUser); // get info account
+    router.put('/api/webapi/change/pass', middlewareController, userController.changePassword); // get info account
 
     // bet wingo
     router.post('/api/webapi/action/join', middlewareController, winGoController.betWinGo); // register
@@ -210,8 +210,8 @@ const initWebRouter = (app) => {
     router.post('/api/webapi/admin/k3/listOrders', adminController.middlewareAdminController, adminController.listOrderOldK3); // get info account
     router.post('/api/webapi/admin/5d/editResult', adminController.middlewareAdminController, adminController.editResult); // get info account
     router.post('/api/webapi/admin/k3/editResult', adminController.middlewareAdminController, adminController.editResult2); // get info account
-    
-    return app.use('/', router); 
+
+    return app.use('/', router);
 }
 
 module.exports = {
